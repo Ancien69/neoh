@@ -86,7 +86,9 @@ export default function App() {
     email: '',
     phone: ''
   });
-
+   useEffect(() => {
+   window.scrollTo(0, 0);
+   }, [currentPage]);
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     console.log('Form submitted:', formData);
