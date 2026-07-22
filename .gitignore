@@ -1,0 +1,23 @@
+# Dépendances
+node_modules
+
+# Build
+dist
+dist-ssr
+
+# Vite
+.vite
+.vite-temp
+
+# Variables d'environnement
+.env
+.env.local
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Éditeur / OS
+.DS_Store
+*.local
